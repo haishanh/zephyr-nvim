@@ -97,9 +97,9 @@ function zephyr.load_syntax()
     LineNr = {fg=zephyr.base4};
     qfLineNr = {fg=zephyr.cyan};
     CursorLineNr = {fg=zephyr.blue};
-    DiffAdd = {fg=zephyr.black,bg=zephyr.dark_green};
-    DiffChange = {fg=zephyr.black,bg=zephyr.yellow};
-    DiffDelete = {fg=zephyr.black,bg=zephyr.red};
+    DiffAdd = {fg=zephyr.dark_green};
+    DiffChange = {fg=zephyr.yellow};
+    DiffDelete = {fg=zephyr.red};
     DiffText = {fg=zephyr.black,bg=zephyr.fg};
     Directory = {fg=zephyr.blue,bg=zephyr.none};
     ErrorMsg = {fg=zephyr.red,bg=zephyr.none,style='bold'};
